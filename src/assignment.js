@@ -33,7 +33,7 @@ assignment.sumOfNumbers = sumOfNumbers;
  */
 function countEvenNumbers(arrayOfNumbers) {
     var count = 1;
-  for(let i = 0; i < arrayOfNumbers.length; i++){
+  for(let i = 1; i < arrayOfNumbers.length; i++){
      if (arrayOfNumbers[i] % 2 === 0 && arrayOfNumbers[i] != "" && arrayOfNumbers[i] != [])
       count++;
   }
